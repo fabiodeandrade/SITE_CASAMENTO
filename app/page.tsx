@@ -25,11 +25,11 @@ export default function HomePage() {
         <div className="container mx-auto text-center">
           <div className="mb-8">
             <Image
-              src="/familia.jpeg?height=300&width=400"
+              src="/momojao.jpg?height=300&width=400"
               alt="Fabio e Bruna"
               width={400}
-              height={300}
-              className="mx-auto rounded-full border-4 border-white shadow-lg"
+              height={400}
+              className="mx-auto rounded-full border-2 border-white shadow-lg"
             />
           </div>
           <h1 className="text-5xl md:text-7xl font-serif text-white mb-4">
