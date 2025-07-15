@@ -61,8 +61,8 @@ export default function HomePage() {
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">
                   Sexta, 19 de Setembro
                 </h3>
-                <p className="text-sm text-gray-800">19:00 Recepção</p>
-                <p className="text-sm text-gray-800">20:00 Cerimônia</p>
+                <p className="text-sm text-gray-800">19h30 Recepção</p>
+                <p className="text-sm text-gray-800">20h00 Cerimônia</p>
               </CardContent>
             </Card>
 
@@ -113,18 +113,18 @@ export default function HomePage() {
             </div>
             <div className="text-left">
               <p className="text-gray-700 font-serif text-lg leading-relaxed mb-4">
-                We met in college during our sophomore year in a literature
-                class. What started as study sessions turned into long
-                conversations about books, dreams, and life.
+                Tudo começou no portão 2, onde eu perguntei a ela se podia
+                ajudar em um procedimento no trabalho. Sim, nos conhecemos no
+                Aeroporto de Belém, essa foto é na frente do aeroporto, em um
+                dia dificil em meio a uma pandemia.
               </p>
               <p className="text-gray-700 font-serif text-lg leading-relaxed mb-4">
-                After five wonderful years together, Michael proposed during a
-                sunset hike at our favorite trail. We can't wait to start this
-                new chapter of our lives together.
+                Essa foto diz muito sobre nós, mesmo em situações difíceis, o
+                que mais importa é nos mantermos juntos com gentileza e muito amor um
+                pelo outro.
               </p>
-              <p className="text-gray-700 font-serif text-lg leading-relaxed">
-                Thank you for being part of our journey. We're so excited to
-                celebrate with all of you!
+              <p className="text-gray-700 font-serif text-lg leading-relaxed mb-4">
+                Agora queremos que você faça parte de mais um pedaço da nossa história de carinho, amor e muita felicidade.
               </p>
             </div>
           </div>

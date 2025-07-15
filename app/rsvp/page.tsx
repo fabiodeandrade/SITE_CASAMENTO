@@ -95,14 +95,14 @@ export default function RSVPPage() {
           <h2 className="text-4xl font-serif text-rose-900 mb-1">
             Confirmação de Presença
           </h2>
-          <p className="text-rose-700 text-lg leading-relaxed">
+          <p className="text-red-800 text-sm leading-relaxed">
             Por favor, nos avise se você estará conosco em nosso dia especial!
           </p>
         </div>
 
-        <Card className="border-rose-200 bg-white/70 backdrop-blur-sm">
+        <Card className="border-red-800 bg-white/70 backdrop-blur-sm">
           <CardHeader className="pb-3">
-            <CardTitle className="text-rose-900 text-lg">
+            <CardTitle className="text-red-800 text-lg">
               Confirme Sua Presença
             </CardTitle>
           </CardHeader>{" "}
@@ -149,7 +149,7 @@ export default function RSVPPage() {
 
               <Button
                 type="submit"
-                className="w-full bg-rose-600 hover:bg-rose-700 py-2 mt-4"
+                className="w-full bg-red-800 hover:bg-red-700 py-2 mt-4"
                 disabled={!formData.name || !formData.attendance}
               >
                 Enviar

@@ -10,16 +10,15 @@ import {
   Plane,
 } from "lucide-react";
 
-
 export default function DetailsPage() {
   return (
     <div className="p-12 bg-gradient-to-b from-gray-100 to-gray-200 flex items-center justify-center">
-      <div className="container mx-auto px-4 py-16">
+      <div className="container mx-auto px-4 py-8">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-serif text-gray-800 mb-4">
             Detalhes do Casamento
           </h2>
-          <p className="text-gray-700 text-lg">
+          <p className="text-gray-700 text-sm">
             Aqui você vai ficar sabendo de tudo para o nosso dia especial
           </p>
         </div>
@@ -35,87 +34,47 @@ export default function DetailsPage() {
             </CardHeader>
             <CardContent>
               <div className="space-y-6">
-                <div className="flex items-start space-x-4">
-                  <div className="bg-red-100 rounded-full p-2 mt-1">
-                    <Clock className="h-4 w-4 text-red-600" />
+                <div className="flex items-center space-x-4">
+                  <div className="bg-red-800 rounded-full p-2 mt-1">
+                    <Clock className="h-4 w-4 text-red-200" />
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-800">
-                      18h30 - Início da Recepção
+                      19h30 - Início da Recepção
                     </h3>
-                    <p className="text-gray-700">
-                      Guests arrive and are seated for the ceremony
-                    </p>
                   </div>
                 </div>
 
-                <div className="flex items-start space-x-4">
-                  <div className="bg-red-100 rounded-full p-2 mt-1">
-                    <Heart className="h-4 w-4 text-red-600" />
+                <div className="flex items-center space-x-4">
+                  <div className="bg-red-800 rounded-full p-2 mt-1">
+                    <Heart className="h-4 w-4 text-red-200" />
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-800">
-                      19h30 - Cerimônia
+                      20h - Cerimônia
                     </h3>
-                    <p className="text-gray-700">
-                      Wedding ceremony in the garden pavilion
-                    </p>
                   </div>
                 </div>
 
-                <div className="flex items-start space-x-4">
-                  <div className="bg-red-100 rounded-full p-2 mt-1">
-                    <Camera className="h-4 w-4 text-red-600" />
+                <div className="flex items-center space-x-4">
+                  <div className="bg-red-800 rounded-full p-2 mt-1">
+                    <Utensils className="h-4 w-4 text-red-200" />
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-800">
-                      4:30 PM - Photos & Cocktails
+                      20h45 - Buffet
                     </h3>
-                    <p className="text-gray-700">
-                      Family photos while guests enjoy cocktail hour
-                    </p>
                   </div>
                 </div>
 
-                <div className="flex items-start space-x-4">
-                  <div className="bg-red-100 rounded-full p-2 mt-1">
-                    <Utensils className="h-4 w-4 text-red-600" />
+                <div className="flex items-center space-x-4">
+                  <div className="bg-red-800 rounded-full p-2 mt-1">
+                    <Music className="h-4 w-4 text-red-200" />
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-800">
-                      6:00 PM - Reception Dinner
+                      21h30 - Festa
                     </h3>
-                    <p className="text-gray-700">
-                      Seated dinner with toasts and speeches
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex items-start space-x-4">
-                  <div className="bg-red-100 rounded-full p-2 mt-1">
-                    <Music className="h-4 w-4 text-red-600" />
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-gray-800">
-                      8:00 PM - Dancing
-                    </h3>
-                    <p className="text-gray-700">
-                      First dance followed by open dancing
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex items-start space-x-4">
-                  <div className="bg-red-100 rounded-full p-2 mt-1">
-                    <Heart className="h-4 w-4 text-red-600" />
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-gray-800">
-                      11:00 PM - Send-off
-                    </h3>
-                    <p className="text-gray-700">
-                      Sparkler send-off for the newlyweds
-                    </p>
                   </div>
                 </div>
               </div>
@@ -127,20 +86,19 @@ export default function DetailsPage() {
         <div className="grid md:grid-cols-2 gap-8">
           <Card className="border-red-200 bg-white/70 backdrop-blur-sm">
             <CardHeader>
-              <CardTitle className="text-gray-800">Dress Code</CardTitle>
+              <CardTitle className="text-gray-800">Trajes</CardTitle>
             </CardHeader>
             <CardContent className="space-y-3">
               <p className="text-gray-700">
-                <strong>Garden Party Attire</strong> - Semi-formal outdoor wear
+                <strong>Salão de Festas Residencial</strong> - Sport - Fino
               </p>
               <ul className="text-gray-700 text-sm space-y-1">
-                <li>• Cocktail dresses or dressy separates</li>
-                <li>• Suits or dress shirts with slacks</li>
-                <li>• Comfortable shoes recommended (grass/gravel)</li>
-                <li>• Light jacket for evening (it can get cool)</li>
+                <li>• Madrinhas irão vestir vestidos cor de vinho.</li>
+                <li>• Padrinhos irão usar gravatas cor de vinho.</li>
               </ul>
               <p className="text-red-600 text-sm italic">
-                Please avoid white, ivory, or blush tones
+                O estilo de roupas é esporte-fino, mas venha do jeito que você
+                se sentir melhor e mais confortável.
               </p>
             </CardContent>
           </Card>
