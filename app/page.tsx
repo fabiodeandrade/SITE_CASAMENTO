@@ -120,13 +120,78 @@ export default function HomePage() {
               </p>
               <p className="text-gray-700 font-serif text-lg leading-relaxed mb-4">
                 Essa foto diz muito sobre nós, mesmo em situações difíceis, o
-                que mais importa é nos mantermos juntos com gentileza e muito amor um
-                pelo outro.
+                que mais importa é nos mantermos juntos com gentileza e muito
+                amor um pelo outro.
               </p>
               <p className="text-gray-700 font-serif text-lg leading-relaxed mb-4">
-                Agora queremos que você faça parte de mais um pedaço da nossa história de carinho, amor e muita felicidade.
+                Agora queremos que você faça parte de mais um pedaço da nossa
+                história de carinho, amor e muita felicidade.
               </p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Gift Section */}
+      <section className="p-12 bg-gradient-to-b from-gray-100 to-gray-200">
+        <div className="container mx-auto max-w-4xl text-center">
+          <h2 className="text-4xl font-serif text-gray-800 mb-8">
+            Lista de Presentes
+          </h2>
+          <p className="text-gray-700 font-serif text-lg leading-relaxed mb-8">
+            Sua presença é o nosso maior presente! Mas se quiser nos presentear,
+            criamos uma forma prática e segura através do PIX.
+          </p>
+
+          <div className="grid md:grid-cols-2 gap-8 items-center">
+            <Card className="border-red-200 bg-white/70 backdrop-blur-sm">
+              <CardContent className="p-8 text-center">
+                <Gift className="h-16 w-16 text-red-800 mx-auto mb-6" />
+                <h3 className="text-2xl font-semibold text-gray-800 mb-4">
+                  Contribua via PIX
+                </h3>
+                <p className="text-gray-700 font-serif text-base leading-relaxed mb-6">
+                  Escaneie o QR Code ao lado ou use a chave PIX para nos ajudar
+                  a começar nossa nova jornada juntos.
+                </p>
+                <div className="bg-gray-50 p-4 rounded-lg border">
+                  <p className="text-sm text-gray-600 mb-2">Chave PIX:</p>
+                  <p className="font-mono text-red-800 font-semibold break-all">
+                    brunab.lopes@hotmail.com
+                  </p>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="border-red-200 bg-white/70 backdrop-blur-sm">
+              <CardContent className="p-8 text-center">
+                <h3 className="text-xl font-semibold text-gray-800 mb-4">
+                  QR Code PIX
+                </h3>
+                <div className="bg-white p-6 rounded-lg shadow-inner mb-4 mx-auto max-w-xs">
+                  {/* Placeholder for QR Code - você pode substituir por um QR code real */}
+                    <div className="w-48 h-48 mx-auto bg-gray-200 border-2 border-gray-300 rounded-lg flex items-center justify-center">
+                    <Image 
+                      src="/qrcode.png" 
+                      alt="QR Code PIX" 
+                      width={192}
+                      height={192}
+                      className="mx-auto"
+                    />
+                    </div>
+                </div>
+                <p className="text-xs text-gray-600">
+                  Escaneie com seu app do banco
+                </p>
+              </CardContent>
+            </Card>
+          </div>
+
+          <div className="mt-8">
+            <p className="text-gray-600 font-serif text-sm italic">
+              "O amor não se compra, mas sua generosidade nos ajuda a construir
+              nossa vida com muito carinho."
+            </p>
           </div>
         </div>
       </section>
